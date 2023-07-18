@@ -16,5 +16,4 @@ const worker = setupWorker(
   }),
 )
 
-// 3. Start request interception by starting the Service Worker.
 worker.start()
